@@ -1,0 +1,472 @@
+{
+  error: TypeError: Cannot read property 'use' of undefined
+      at module.exports (C:\Users\rismy\Desktop\Tutorials\Node.js Course\vidly\startup\cors.js:4:7)
+      at Object.<anonymous> (C:\Users\rismy\Desktop\Tutorials\Node.js Course\vidly\index.js:7:26)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'use' of undefined\n" +
+    "TypeError: Cannot read property 'use' of undefined\n" +
+    '    at module.exports (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\startup\\cors.js:4:7)\n' +
+    '    at Object.<anonymous> (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\index.js:7:26)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: "TypeError: Cannot read property 'use' of undefined\n" +
+    '    at module.exports (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\startup\\cors.js:4:7)\n' +
+    '    at Object.<anonymous> (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\index.js:7:26)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Sun Mar 07 2021 18:39:49 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11576,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.15.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\index.js'
+    ],
+    memoryUsage: {
+      rss: 48238592,
+      heapTotal: 29286400,
+      heapUsed: 14283384,
+      external: 19947298,
+      arrayBuffers: 18535081
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 131432 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\startup\\cors.js',
+      function: 'module.exports',
+      line: 4,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\index.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 72,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-03-07T13:09:49.058Z'
+}
+{
+  error: Error: FATAL ERROR: jwtPrivateKey is not defined
+      at module.exports (C:\Users\rismy\Desktop\Tutorials\Node.js Course\vidly\startup\config.js:5:11)
+      at Object.<anonymous> (C:\Users\rismy\Desktop\Tutorials\Node.js Course\vidly\index.js:10:28)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: 'uncaughtException: FATAL ERROR: jwtPrivateKey is not defined\n' +
+    'Error: FATAL ERROR: jwtPrivateKey is not defined\n' +
+    '    at module.exports (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\startup\\config.js:5:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\index.js:10:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'Error: FATAL ERROR: jwtPrivateKey is not defined\n' +
+    '    at module.exports (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\startup\\config.js:5:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\index.js:10:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Sun Mar 07 2021 18:40:15 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12912,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.15.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\index.js'
+    ],
+    memoryUsage: {
+      rss: 63422464,
+      heapTotal: 37695488,
+      heapUsed: 26865328,
+      external: 20598672,
+      arrayBuffers: 19053937
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 131459 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\startup\\config.js',
+      function: 'module.exports',
+      line: 5,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\index.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 72,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-03-07T13:10:15.863Z'
+}
+{
+  error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+      at NativeConnection.Connection.openUri (C:\Users\rismy\Desktop\Tutorials\Node.js Course\vidly\node_modules\mongoose\lib\connection.js:845:32)
+      at C:\Users\rismy\Desktop\Tutorials\Node.js Course\vidly\node_modules\mongoose\lib\index.js:345:10
+      at C:\Users\rismy\Desktop\Tutorials\Node.js Course\vidly\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (C:\Users\rismy\Desktop\Tutorials\Node.js Course\vidly\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+      at Mongoose._promiseOrCallback (C:\Users\rismy\Desktop\Tutorials\Node.js Course\vidly\node_modules\mongoose\lib\index.js:1135:10)
+      at Mongoose.connect (C:\Users\rismy\Desktop\Tutorials\Node.js Course\vidly\node_modules\mongoose\lib\index.js:344:20)
+      at module.exports (C:\Users\rismy\Desktop\Tutorials\Node.js Course\vidly\startup\db.js:15:6)
+      at Object.<anonymous> (C:\Users\rismy\Desktop\Tutorials\Node.js Course\vidly\index.js:9:24)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+      at internal/main/run_main_module.js:17:47 {
+    reason: TopologyDescription {
+      type: 'Single',
+      setName: null,
+      maxSetVersion: null,
+      maxElectionId: null,
+      servers: Map(1) {
+        'localhost:27017' => ServerDescription {
+          address: 'localhost:27017',
+          error: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+            name: 'MongoNetworkError'
+          },
+          roundTripTime: -1,
+          lastUpdateTime: 39042327,
+          lastWriteDate: null,
+          opTime: null,
+          type: 'Unknown',
+          topologyVersion: undefined,
+          minWireVersion: 0,
+          maxWireVersion: 0,
+          hosts: [],
+          passives: [],
+          arbiters: [],
+          tags: []
+        }
+      },
+      stale: false,
+      compatible: true,
+      compatibilityError: null,
+      logicalSessionTimeoutMinutes: null,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      commonWireVersion: null
+    }
+  },
+  level: 'error',
+  message: 'unhandledRejection: connect ECONNREFUSED 127.0.0.1:27017\n' +
+    'MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n' +
+    '    at NativeConnection.Connection.openUri (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\connection.js:845:32)\n' +
+    '    at C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\index.js:345:10\n' +
+    '    at C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:30:10)\n' +
+    '    at Mongoose._promiseOrCallback (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\index.js:1135:10)\n' +
+    '    at Mongoose.connect (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\index.js:344:20)\n' +
+    '    at module.exports (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\startup\\db.js:15:6)\n' +
+    '    at Object.<anonymous> (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\index.js:9:24)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n' +
+    '    at NativeConnection.Connection.openUri (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\connection.js:845:32)\n' +
+    '    at C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\index.js:345:10\n' +
+    '    at C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:30:10)\n' +
+    '    at Mongoose._promiseOrCallback (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\index.js:1135:10)\n' +
+    '    at Mongoose.connect (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\index.js:344:20)\n' +
+    '    at module.exports (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\startup\\db.js:15:6)\n' +
+    '    at Object.<anonymous> (C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\index.js:9:24)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Sun Mar 14 2021 13:08:20 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5920,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.15.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\index.js'
+    ],
+    memoryUsage: {
+      rss: 47583232,
+      heapTotal: 22138880,
+      heapUsed: 20674800,
+      external: 19841813,
+      arrayBuffers: 18279630
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 39042 },
+  trace: [
+    {
+      column: 32,
+      file: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\connection.js',
+      function: 'NativeConnection.Connection.openUri',
+      line: 845,
+      method: 'openUri',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\index.js',
+      function: null,
+      line: 345,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: null,
+      line: 31,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: 'promiseOrCallback',
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\index.js',
+      function: 'Mongoose._promiseOrCallback',
+      line: 1135,
+      method: '_promiseOrCallback',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\node_modules\\mongoose\\lib\\index.js',
+      function: 'Mongoose.connect',
+      line: 344,
+      method: 'connect',
+      native: false
+    },
+    {
+      column: 6,
+      file: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\startup\\db.js',
+      function: 'module.exports',
+      line: 15,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\rismy\\Desktop\\Tutorials\\Node.js Course\\vidly\\index.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 72,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-03-14T07:38:20.604Z'
+}
