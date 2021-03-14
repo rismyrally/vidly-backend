@@ -49,8 +49,8 @@ const logOptions = {
 
 const logger = createLogger(logOptions);
 
-if (process.env.NODE_ENV !== 'production') {
-  logger.add(consoleTransport);
-}
+// if (process.env.NODE_ENV !== 'production') {
+logger.add(consoleTransport);
+// }
 
 module.exports = logger;
