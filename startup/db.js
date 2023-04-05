@@ -13,5 +13,5 @@ module.exports = function () {
 
   mongoose
     .connect(db, options)
-    .then(() => logger.info(`Connected to ${db} ...`));
+    .then(() => logger.info(`Successfully connected to the database...`));
 };
